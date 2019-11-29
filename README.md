@@ -13,3 +13,6 @@ $ ping resolver
 
 ```
 
+Environment:
+
+`REFRESH_INTERVAL` (default value is 10) - interval to recheck `docker ps` list.
