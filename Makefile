@@ -1,4 +1,4 @@
-VERSION     = 1
+VERSION     = $(shell git describe)
 REPO	    = unera
 
 build:
