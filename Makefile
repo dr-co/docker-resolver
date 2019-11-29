@@ -1,4 +1,4 @@
-VERSION     = $(shell git describe)
+VERSION     = $(shell  git describe|sed -E 's/-g.*$$//'|sed 's/-/./g')
 REPO	    = unera
 
 build:
